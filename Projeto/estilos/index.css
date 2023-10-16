@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    position: relative;
+    background-color: rgb(230, 230, 230);
+}
+
+nav {
+    display:block;
+    width: 20vw;
+    height: 100vh;
+    background-color: white;
+    position:relative; top: auto; left: auto;
+    border-right: solid rgba(0, 0, 0, 0.377) 1px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);
+}
+
+nav>hr{
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+nav > img {
+    margin: 20px;
+    width: 230px;
+    height: 80px;
+}
+
+nav > a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+header {
+    position: absolute; left: 301px;
+    background-color: rgb(218, 218, 218);
+    margin: 20px;
+    width: 75vw;
+    height: 60px;
+    border-radius: 5px;
+}
+
+header > p {
+    display: inline-block;
+    border-right: solid black 1px;
+    padding: 10px;
+    padding-right: 25px;
+    position: absolute; left: 83% ; top:17.5% ;
+}
+
+header > a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    position: absolute; left: 93% ; top:34.5% ;
+}
+
+header > input {
+    margin: 10px;
+    margin-top: 14px;
+    border: solid 1px rgb(230, 230, 230);
+    border-radius: 3px;
+    background-color: rgb(230, 230, 230);
+    padding: 7px;
+    width: 300px;
+}
+
+header > button {
+    background-color: rgb(218, 218, 218) ;
+    border: none;
+    position: absolute; left: 31% ; top:27% ;
+}
+
+main {
+    position: absolute; left: 22%; top: 15%;
+    margin: 20px;
+    background-color: white;
+    width: 75vw;
+    height: 75vh;
+}
+
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+iframe#tela{
+    width: 75vw;
+    height: 75vh;
+}
