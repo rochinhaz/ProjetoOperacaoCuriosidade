@@ -10,45 +10,84 @@ body {
     background-color: rgb(230, 230, 230);
 }
 
-/*main{
+main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
-}*/
+    flex-grow: 0;
+    gap: 5px;
+}
 
 div.dados{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     height: 220px;
-    width: 300px;
+    width: 200px;
     margin-top: 20px;
     margin-left: 20px;
+    margin-right: 20px;
     background-color: white;
     border-radius: 5px;
+    flex-grow: 1;
+    justify-content: flex-end;
+    gap: 25%;
+}
+
+.c1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.c2{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    align-content: end;
 }
 
 p#p1{
     color: darkblue;
     font-size: 60px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    
 }
 
 p#p2{
     color: darkgreen;
     font-size: 60px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
 }
 
 p#p3{
     color: darkred;
     font-size: 60px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+p.ptxt{
+    align-self: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-right: 10px;
 }
 
 div#titulotabela {
     margin-left: 20px;
     margin-top: 30px;
+    margin-right: 20px;
     width: 92.7%;
     height: auto;
     background-color: white;
     border-radius: 5px;
+    flex-grow: 1;
 }
 
 div#titulotabela >h2 {
@@ -78,7 +117,7 @@ th {
     border-bottom: solid 1px black;
 }
 
-tr {
+thead > tr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
