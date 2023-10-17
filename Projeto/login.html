@@ -17,7 +17,7 @@
                     </div>
         
                     <div class="campo">
-                        <input type="email" name="lemail" id="lemail" placeholder="Email" required>
+                        <input type="email" name="lemail" id="lemail"  onchange="validateFields()" placeholder="Email" required>
                     </div>
                     <div class="campo">
                         <input type="password" name="lsenha" id="lsenha" placeholder="Senha" required minlength="6" maxlength="20">
@@ -30,5 +30,6 @@
             </form>
         </section>
     </main>
+    <script src="script/login.js"></script>
 </body>
 </html>

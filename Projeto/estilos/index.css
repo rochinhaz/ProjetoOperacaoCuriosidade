@@ -42,43 +42,68 @@ nav > a{
 
 
 header {
-    position: absolute; left: 301px;
+    display: flex;
+    flex-direction: row;
+    position: absolute; left: 23.5%;
     background-color: rgb(218, 218, 218);
     margin: 20px;
-    width: 75%;
+    width: 72%;
     height: 10%;
     border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 }
 
-header > p {
-    display: inline-block;
+.containerhi{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    width: 40%;
+}
+
+.containerhf{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+    align-content: center;
+}
+
+header > div.containerhf > p {
     border-right: solid black 1px;
     padding: 10px;
     padding-right: 25px;
-    position: absolute; left: 83% ; top:17.5% ;
 }
 
-header > a {
-    display: inline-block;
+header > div.containerhf > a {
     text-decoration: none;
     color: black;
-    position: absolute; left: 93% ; top:34.5% ;
+    margin-right: 25px;
 }
 
-header > input {
-    margin: 10px;
-    margin-top: 14px;
+header > div.containerhi> input {
+    margin-left: 25px;
     border: solid 1px rgb(230, 230, 230);
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: rgb(230, 230, 230);
     padding: 7px;
-    width: 30%;
+    width: 150%;
 }
 
-header > button {
+header > div.containerhi > button {
     background-color: rgb(218, 218, 218) ;
     border: none;
-    position: absolute; left: 31% ; top:27% ;
+}
+
+header > div.containerhf > img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
 
 main {
