@@ -7,6 +7,12 @@
   box-sizing: border-box;
 }
 
+h2{
+    color:gray;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
 .container{
     margin: 20px 20px 30px 20px;
     height: 30px;
@@ -23,13 +29,22 @@ header > div> input{
 fieldset {
     border: none;
     border-top: 1px solid black;
-    margin: 5px 20px;
+    margin: 5px 20px 5px 30px;
+}
+
+legend{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 input{
-    background-color: white;
+    background-color: rgb(248, 246, 246);
     border: 1px solid rgb(230, 230, 230);
     padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 input#inome{
@@ -55,11 +70,11 @@ label#lemail {
 }
 
 textarea{
-    background-color: white;
+    background-color: rgb(248, 246, 246);
     border: 1px solid rgb(230, 230, 230);
     resize: none;
-    margin: 10px 20px 10px 0px;
-    width: 100%;
+    margin: 10px 20px 10px 10px;
+    width: 98%;
     height: 20vh;
 }
 
@@ -74,10 +89,11 @@ footer.container{
 
 footer > input{
     text-decoration: none;
-    background-color: darkgreen;
-    width: 150px;
-    height: 30px;
+    background-color: rgb(61, 151, 61);
+    padding: 10px 70px;
     border: none;
     border-radius: 5px;
     color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
