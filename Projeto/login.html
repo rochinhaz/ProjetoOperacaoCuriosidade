@@ -10,20 +10,20 @@
 <body>
     <main>
         <section id="login">
-            <form action="login.php" method="post" autocomplete="on">
+            <form>
                 <div id="divlogin">
                     <div id="logo_login">
                         <img src="imagens/logo_login.png" alt="logo_login">
                     </div>
         
                     <div class="campo">
-                        <input type="email" name="lemail" id="lemail"  onchange="validateFields()" placeholder="Email" required>
+                        <input type="email" name="lemail" id="lemail"  placeholder="Email" required>
                     </div>
                     <div class="campo">
                         <input type="password" name="lsenha" id="lsenha" placeholder="Senha" required minlength="6" maxlength="20">
                     </div>
                     <div id="entrar">
-                        <input type="submit" value="ENTRAR">
+                        <input type="button" onclick="logar(); return false" value="ENTRAR">
                     </div>
                 </div>
         
