@@ -16,7 +16,8 @@
 }
 
 h2{
-    padding: 25px;
+    font-size: 20px;
+    margin: 20px 0px 0px 10px;
 }
 
 h2>a{
@@ -25,19 +26,17 @@ h2>a{
     color: white;
     font-style: normal;
     font-weight: bold;
-    font-size: 0.8em;
-    padding: 10px 50px;
+    padding: 8px 35px;
     border-radius: 5px;
-    margin-right: 5px;
+    font-size: 18px;
+    margin: 20px 20px 0px 0px;  
    
 }
 
 table{
     border-collapse: collapse;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top:70px;
-    width: 96%;
+    margin: 70px 15px 10px 25px;
+    width: 94%;
 }
 
 thead > tr {

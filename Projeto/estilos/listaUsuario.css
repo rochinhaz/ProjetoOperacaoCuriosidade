@@ -14,11 +14,12 @@ header{
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    margin-bottom: 70px;
 }
 
-h2 {
+h2{
     font-size: 20px;
-    margin-left: 10px;
+    margin: 20px 0px 0px 10px;
 }
 
 input {
@@ -33,11 +34,9 @@ input {
     cursor: pointer;
 }
 
-
-
 table{
-    margin: 10px 25px;
-    width: 96%;
+    margin: 10px 15px 10px 25px;
+    width: 94%;
     border-collapse: collapse;
 }
 

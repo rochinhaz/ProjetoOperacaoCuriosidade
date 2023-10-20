@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 220px) and (max-width: 768px){
+
+    div#divlogin {
+        height: 350px;
+        width: 400px;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+             
+    }
+
+    div#logo_login>img{
+        height: 90px;
+    }
+
+    div#entrar {
+        display: block;
+        width: 220px;
+        height: 30px;
+        margin: 40px 90px auto;
+    }
+
+    div#entrar>input{
+        padding: 8px 85px;    
+    }
+
+    div.campo{
+        width: 220px;
+        height: 30px;
+        margin: 40px 90px auto;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    
+}

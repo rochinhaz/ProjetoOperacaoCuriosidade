@@ -4,11 +4,13 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: rgb(230, 230, 230);
 }
 
     div#divlogin {
-        height: 450px;
-        width: 350px;
+        background-color: white;
+        height: 500px;
+        width: 550px;
         border: 1px solid black;
         border-radius: 5px;
         text-align: center;
@@ -25,10 +27,11 @@
         display: block;
         width: 250px;
         height: 40px;
-        margin: 40px 55px auto;
+        margin: 50px 150px auto;
     }
 
     div.campo>input {
+        background-color: rgb(248, 246, 246);
         border: 0px;
         margin: 0px auto;
         padding: 0px;
@@ -44,7 +47,7 @@
         height: 40px;
         background-color: black;
         border-radius: 5px;
-        margin: 40px 55px auto;
+        margin: 50px 150px auto;
         border: 2px solid black;
 
     }
@@ -61,19 +64,18 @@
         text-align: center;
         font-weight: bolder;
         margin: auto;
-        cursor: pointer; 
-        
+        cursor: pointer;       
         
     }
 
     div#logo_login{
-        margin-top: 50px;
+        margin-top: 30px;
+        background-color: white;
     }
 
     div#logo_login>img{
         border-radius: 50%;
         background-size: cover;
-        height: 100px;
-        width: 100px;
+        height: 130px;
         margin: auto;
     }

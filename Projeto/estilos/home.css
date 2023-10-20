@@ -103,8 +103,8 @@ div#titulotabela >h2 {
 
 table {
     border-collapse: collapse;
-    margin:10px 10px 10px 20px;
-    width: 96%;
+    margin: 10px 15px 10px 25px;
+    width: 94%;
     
 }
 
@@ -119,25 +119,25 @@ tbody{
 th{
     margin: 5px;
     font-weight: normal;
+    text-align: left;
 }
 
 td{
     color: black;
     margin: 5px;
+    text-align: left;   
 }
 
 table > thead > tr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    align-content: center;
+
 }
 
 table > tbody > tr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    align-content: center;
+
 }
