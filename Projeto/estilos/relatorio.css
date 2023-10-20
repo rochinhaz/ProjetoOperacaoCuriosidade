@@ -17,6 +17,11 @@ ul{
 a {
     text-decoration: none;
     color: black;
+    padding: 4px;
+}
+
+a:hover {
+    background-color: chartreuse;
 }
 
 hr{

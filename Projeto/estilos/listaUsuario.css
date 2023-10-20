@@ -21,14 +21,16 @@ h2 {
     margin-left: 10px;
 }
 
-a {
-    margin: 10px 20px;
+input {
+    margin: 20px 20px 0px 0px;  
     text-decoration: none;
     color: white;
     background-color: rgb(45, 45, 165);
-    padding: 15px 80px;
+    padding: 10px 80px;
+    border: none;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -73,4 +75,20 @@ main> table > tbody > tr {
     align-content: center;
 }
 
+@media print{
+    .noprint {
+        display: none;
+    }
 
+    *{
+        background: transparent;
+        color: black;
+        text-shadow: none;
+    }
+
+}
+
+@page {
+    size: auto;
+    margin: 0mm;
+}
