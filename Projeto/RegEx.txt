@@ -1,0 +1,31 @@
+Expressões Regulares
+
+//-começo e fim da expressão regular
+/./- busca qualquer caractere
+/t./- busca o caractere t com mais um caractere em seguida. Ex:'te'
+/e|é/- barra "ou", busca tanto o 'e' ou o 'é'
+()- cria um grupo
+[]- cria padroes, pega todos caracteres que estiverem dentro
+[^et] - ^ funciona como negação, vai pegar todos caracteres menos 'e' e 't'
+(s+) - vai pegar um s ou mais de um s se estivere juntos (sendo um grupo de caraceres no segundo caso)
+\. - buscar o ponto na string
+[09]-busca 0 ou 9
+[0-9]-busca todos numeros de 0 a 9
+[0][0] ou [0]{2}- busca duas ocorrencias de 0 seguidas
+[0]{2,}- pega o 0 quando tiver 2 '0' juntos ou +
+[0]{2,3}- pega o 0 quando tiver 2 '0' juntos ou 3 '0'
+[0-9]{6}- sequencia de 6 caracteres seguidos de 0 a 9
+^-começo da linha
+^sf- tem que começar com sf
+$-final da linha
+este$- tem que terminar com este
++ - numero qualquer de ocorrencias 
+
+
+var text
+var regex
+var results = text.match(regex); vai retornar o conteudo buscado pela regex dentro do text
+var results = regex.exec(text); igual o de cima
+var results = regex.test(text); testa retornando true ou false
+
+regexr.com (para testar expressões regulares)

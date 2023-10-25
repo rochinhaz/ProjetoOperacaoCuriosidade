@@ -9,14 +9,16 @@
     <link rel="stylesheet" href="estilos/mediaQueryListaUsuario.css">
 
 </head>
+
 <body>
+
     <header class="noprint">
         <h2>Relatórios > Lista de usuários</h2>
         <input type="button" value="IMPRIMIR" onclick="window.print()">
     </header>
 
     <main>
-        <table id="tbCad">
+        <table id="tbCad" class="tbUser">
             <thead>
                 <tr>
                     <th>NOME</th>
@@ -27,12 +29,30 @@
 
             <tbody>
                 <tr>
-                    <td>Aaaaaaaaa</td>
-                    <td>BBBBBBbbbb</td>
-                    <td>CcccCCCCcc</td>
+                    <td>Jeferson Rocha</td>
+                    <td>jefersonrocha57@gmail.com</td>
+                    <td>Ativo</td>
+                </tr>
+                <tr>
+                    <td>Marcos Rocha</td>
+                    <td>marcosrocha57@gmail.com</td>
+                    <td>Ativo</td>
+                </tr>
+                <tr>
+                    <td>Gustavo Scarpa</td>
+                    <td>gustavoscarpa57@gmail.com</td>
+                    <td>Inativo</td>
+                </tr>
+                <tr>
+                    <td>Raphael Veiga</td>
+                    <td>raphaelveiga57@gmail.com</td>
+                    <td>Ativo</td>
                 </tr>
             </tbody>
         </table>
+
     </main>
+
+    <script src="script/novoCadastro.js"></script>
 </body>
 </html>

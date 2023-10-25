@@ -1,0 +1,4 @@
+Paginas a se fazer responsividade
+
+index
+novoCadastro

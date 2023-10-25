@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 200px) and (max-width: 767px){
+    *{
+        font-size: 12px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    div.dados{
+        flex-direction: column;
+        height: 200px;
+        width: 88%;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-grow: 1;
+        gap:50%;
+    }
+
+    .c1{
+        margin-bottom: 45px;
+    }
+
+    p#p1{
+        font-size: 60px;
+    }
+    
+    p#p2{
+        font-size: 60px;
+    }
+    
+    p#p3{
+        font-size: 60px;
+    }
+
+    p.ptxt{
+        font-size: 14px;
+    }
+
+    
+    div#titulotabela {
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-right: 10px;
+        padding: 10px;
+        width: 88%;
+        height: auto;
+        background-color: white;
+        border-radius: 5px;
+        flex-grow: 1;
+    }
+
+
+    h2{
+        font-size: 14px;
+        margin: 20px 0px 0px 10px;
+    }
+    
+    th{
+        font-size: 10px; 
+    }
+
+    td{
+        font-size: 10px ;
+    }
+    
+    table{
+        border-collapse: collapse;
+        width: 88%;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px){
+    *{
+        font-size: 12px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    div.dados{
+        flex-direction: column;
+        height: 200px;
+        width: 90%;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        flex-grow: 1;
+        gap:50%;
+    }
+
+    .c1{
+        margin-bottom: 45px;
+    }
+
+    p#p1{
+        font-size: 60px;
+    }
+    
+    p#p2{
+        font-size: 60px;
+    }
+    
+    p#p3{
+        font-size: 60px;
+    }
+
+    p.ptxt{
+        font-size: 14px;
+    }
+
+    
+    div#titulotabela {
+        margin-left: 15px;
+        margin-top: 5px;
+        margin-right: 15px;
+        padding: 10px;
+        width: 90%;
+        height: auto;
+        background-color: white;
+        border-radius: 5px;
+        flex-grow: 1;
+    }
+
+
+    h2{
+        font-size: 18px;
+        margin: 20px 0px 0px 10px;
+    }
+    
+    th{
+        font-size: 14px; 
+    }
+
+    td{
+        font-size: 14px ;
+    }
+    
+    table{
+        border-collapse: collapse;
+        width: 90%;
+    }
+}

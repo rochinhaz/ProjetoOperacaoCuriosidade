@@ -16,8 +16,8 @@
 }
 
 h2{
-    font-size: 20px;
-    margin: 20px 0px 0px 10px;
+    font-size: 22px;
+    margin: 30px 10px 0px 10px;
 }
 
 h2>a{
@@ -28,9 +28,16 @@ h2>a{
     font-weight: bold;
     padding: 8px 35px;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 17px;
     margin: 20px 20px 0px 0px;  
    
+}
+
+a:hover{
+    border: 0.5px solid rgba(255, 255, 255, 0.582);
+    transform: translate(-0.2px, -0.2px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+    transition: transform 0.1s;
 }
 
 table{
@@ -55,12 +62,8 @@ tbody > tr {
     align-content: center;
 }
 
-thead{
+tr{
     border-bottom: 1px solid rgb(167, 167, 167);
-}
-
-tbody{
-   border-bottom: 1px solid rgb(167, 167, 167);
 }
 
 th{

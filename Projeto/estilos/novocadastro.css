@@ -14,8 +14,8 @@ h2{
 }
 
 .container{
-    margin: 20px 20px 30px 20px;
-    height: 30px;
+    margin: 20px 30px 40px 10px;
+    height: 44px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,7 +64,7 @@ input#iemail{
     width: 77.4%;
 }
 
-label#lemail {
+label#labelemail {
     position: relative;
     left: 16%;
 }
@@ -96,4 +96,11 @@ footer > input{
     color: white;
     font-weight: bold;
     cursor: pointer;
+}
+
+footer > input:hover {
+    border: 0.5px solid rgba(255, 255, 255, 0.582);
+    transform: translate(-0.2px, -0.2px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+    transition: transform 0.1s;
 }

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 220px) and (max-width: 768px){
+@media screen and (min-width: 220px) and (max-width: 767px){
 
     *{
         font-size: 12px;
@@ -9,13 +9,12 @@
 
     h2{
         font-size: 16px;
-        margin: 20px 0px 0px 10px;
     }
     
     h2>a{
-        padding: 8px 25px;
-        font-size: 14px;
-        margin: 20px 20px 0px 0px;    
+        padding: 6px 20px;
+        font-size: 12px;
+        margin-right: 10px; 
     }
     
     table{

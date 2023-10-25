@@ -1,0 +1,86 @@
+function gravar(){
+
+    var nome = document.getElementById('inome').value;
+    var email = document.getElementById('iemail').value;
+    var ativo = document.getElementById('ativo').value;
+
+    var validNome = false;
+    var validEmail = false;
+
+    if (nome.length>2 && email.length>2){
+        validNome = true;
+        validEmail = true;
+    }else{
+        window.alert=('algum dado incorreto');
+    }
+
+    if(ativo==true){
+        ativo='Ativo';
+    }else{
+        ativo="Inativo"
+    }
+
+    if(validNome == true && validEmail == true){
+        let arrayCad = [];
+        if(localStorage.getItem('dados')!=null){
+            arrayCad=JSON.parse(localStorage.getItem('dados'));
+        }else{
+            arrayCad;
+        }
+
+        var info =
+            {
+                nome, email, ativo
+            };
+        
+        arrayCad.push(info);
+        var infoJson = JSON.stringify(arrayCad)
+        localStorage.setItem('dados', infoJson);
+
+        window.alert('Usuario cadastrado');
+        window.location.href ="cadastro.html";
+    }
+}
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+function gravar(){
+
+    var nome = document.getElementById('inome').value;
+    var email = document.getElementById('iemail').value;
+    var ativo = document.getElementById('ativo').value;
+
+    var validNome = false;
+    var validEmail = false;
+
+    if (nome.length>2 && email.length>2){
+        validNome = true;
+        validEmail = true;
+    } else{
+        alert('Preencher o campo "nome" e "email"');
+    }
+
+    if(ativo==true){
+        ativo='Ativo';
+    }else{
+        ativo="Inativo";
+    }
+
+    if(validNome == true && validEmail == true){
+        var listaUser = JSON.parse(localStorage.getItem('listaUser') || []);
+
+        listaUser.push=(
+            {
+            nome, email, ativo
+            }
+        )
+
+        localStorage.setItem('listaUser', JSON.stringify(listaUser));
+
+        window.alert('Usuario cadastrado');
+        window.location.href ="cadastro.html";
+    }
+
+}

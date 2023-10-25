@@ -6,8 +6,12 @@
     <title>Operação Curiosidade</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/home.css">
+    <link rel="stylesheet" href="estilos/mediaQueryHome.css">
+
 </head>
+
 <body>
+
     <main>
         <div id="b1" class="dados">
                 <div class="c1">
@@ -19,13 +23,21 @@
         </div>
 
         <div id="b2" class="dados">
-                <p id="p2">10</p>
-                <p class="ptxt">Cadastroso último mês</p>
+                <div class="c1">
+                    <p id="p2">10</p>
+                </div>
+                <div class="c2">
+                    <p class="ptxt">Cadastros no último mês</p>
+                </div>
         </div>
 
         <div id="b3" class="dados">
-                <p id="p3">10</p>
-                <p class="ptxt">Cadastros com pendência de revisão</p>
+                <class class="c1">
+                    <p id="p3">10</p>
+                </class>
+                <div class="c2">
+                    <p class="ptxt">Cadastros com pendência de revisão</p>
+                </div>
         </div>
 
         <div id="titulotabela">
@@ -33,7 +45,7 @@
             <!--TABELA-->
             <div id="tabela">
                 
-                <table id="tbCad">
+                <table id="tbCad" class="tbUser">
                     <thead>
                         <tr> 
                             <th>NOME</th>  
@@ -48,6 +60,21 @@
                             <td>jefersonrocha57@gmail.com</td>
                             <td>Ativo</td>
                         </tr>
+                        <tr>
+                            <td>Marcos Rocha</td>
+                            <td>marcosrocha57@gmail.com</td>
+                            <td>Ativo</td>
+                        </tr>
+                        <tr>
+                            <td>Gustavo Scarpa</td>
+                            <td>gustavoscarpa57@gmail.com</td>
+                            <td>Inativo</td>
+                        </tr>
+                        <tr>
+                            <td>Raphael Veiga</td>
+                            <td>raphaelveiga57@gmail.com</td>
+                            <td>Ativo</td>
+                        </tr>
                        
                     </tbody>
                 </table>
@@ -55,5 +82,7 @@
         </div>
 
     </main>
+
+    <script src="script/novoCadastro.js"></script>
 </body>
 </html>

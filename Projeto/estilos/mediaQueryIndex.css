@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 200px) and (max-width: 767px){
+    nav {
+        display:block;
+        width:10vw;
+        height: 108vh;
+    }
+    
+    nav>hr{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    
+    nav > img {
+        display: none;
+    }
+    
+    nav > a{
+        font-size: 9px;
+        margin-left: 3px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .bttexto{
+        display: none;
+    }
+    
+    header {
+        position: absolute; left: 13.7%;
+        margin: 20px 15px 20px 10px;
+        width: 80%;
+        height: 7%;
+    }
+    
+    .containerhi{
+        width: 45%;
+    }
+    
+    .containerhf{
+        gap: 8px;
+    }
+    
+    header > div.containerhf > p {
+        font-size: 11px;
+        padding: 5px;
+        padding-right: 8px;
+    }
+    
+    header > div.containerhf > a {
+        font-size: 11px;
+        margin-right: 8px;
+    }
+    
+    header > div.containerhi> input {
+        margin-left: 6px;
+        border-radius: 5px;
+        padding: 7px;
+        width: 100%;
+    }
+    
+    header > div.containerhi > button {
+        display: none;
+    }
+    
+    header > div.containerhf > img {
+        display: none;
+    }
+    
+    main {
+        position: absolute; left: 13%; top: 15%;
+        margin: 6px;
+        width: 83vw;
+        height: 75vh;
+    }
+    
+    iframe#tela{
+        width: 83vw;
+        height: 75vh;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px){
+    nav {
+        width: 20vw;
+        height: 100vh;
+    }
+    
+    nav>hr{
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    
+    nav > img {
+        margin: 10px 5px 15px 10px;
+        width: 84%;
+        height: 5%;
+    }
+    
+    header {
+        margin: 20px 15px 20px 10px;
+        width: 74%;
+        height: 7%;
+    }
+    
+    .containerhi{
+        gap: 5px;
+        width: 40%;
+    }
+    
+    .containerhf{
+        gap: 10px;
+    }
+    
+    header > div.containerhf > p {
+        padding: 7px;
+        padding-right: 15px;
+    }
+    
+    header > div.containerhf > a {
+        margin-right: 15px;
+    }
+    
+    header > div.containerhi> input {
+        margin-left: 15px;
+        padding: 8px;
+        width: 100%;
+    }
+    
+    header > div.containerhi > button {
+        display: none;
+    }
+    
+    header > div.containerhf > img {
+        width: 35px;
+        height: 35px;
+    }
+    
+    main {
+        margin: 0px 20px 20px 20px;
+        width: 75vw;
+        height: 80vh;
+    }
+    
+    iframe#tela{
+        width: 75vw;
+        height: 80vh;
+    }
+}

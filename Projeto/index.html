@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/index.css">
-    
-    <style>
+    <link rel="stylesheet" href="estilos/mediaQueryIndex.css">
 
-    </style>
 </head>
+
 <body>
+    
     <header>
         <div class="containerhi">
             <input type="search" name="mpesquisa" id="mpesquisa" placeholder="Pesquisar...">
-            <button> <span class="material-symbols-outlined">search</span> </button>
+            <button id="btpesquisa"> <span class="material-symbols-outlined">search</span> </button>
         </div>
         <div class="containerhf">
             <img src="imagens/logo_login.png" alt="">
@@ -27,29 +27,22 @@
 
     <nav>
         <img src="imagens/logo_nav.png" alt="">
-        <a href="home.html" target="tela">
+        <a href="home.html" target="tela" class="btmenu">
             <span class="material-symbols-outlined">home</span>
-            Home</a>
+            <span class="bttexto">Home</span></a>
         <hr>
-        <a href="cadastro.html" target="tela">
+        <a href="cadastro.html" target="tela" class="btmenu">
             <span class="material-symbols-outlined">person_add</span>
-            Cadastro</a>
+            <span class="bttexto">Cadastro</span></a>
         <hr>
-        <a href="relatorio.html" target="tela">
+        <a href="relatorio.html" target="tela" class="btmenu">
             <span class="material-symbols-outlined">monitoring</span>
-            Relatórios</a>
+            <span class="bttexto">Relatórios</span></a>
     </nav>
 
-    <main>
-        <iframe src="home.html" name="tela" id="tela" frameborder="0">seu navegador não é compativel com isso</iframe>
+    <main id="m">
+        <iframe src="home.html" name="tela" id="tela" frameborder="0" scrolling="auto">seu navegador não é compativel com isso</iframe>
     </main>
 
-    <aside>
-
-    </aside>
-
-    <footer>
-
-    </footer>
 </body>
 </html>
