@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width: 200px) and (max-width: 767px){
+@media screen and (min-width: 220px) and (max-width: 767px){
     *{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     main{
@@ -25,20 +25,9 @@
         margin-bottom: 45px;
     }
 
-    p#p1{
-        font-size: 60px;
-    }
-    
-    p#p2{
-        font-size: 60px;
-    }
-    
-    p#p3{
-        font-size: 60px;
-    }
 
     p.ptxt{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     
@@ -48,10 +37,6 @@
         margin-right: 10px;
         padding: 10px;
         width: 88%;
-        height: auto;
-        background-color: white;
-        border-radius: 5px;
-        flex-grow: 1;
     }
 
 
@@ -61,14 +46,15 @@
     }
     
     th{
-        font-size: 10px; 
+        font-size: 9px; 
     }
 
     td{
-        font-size: 10px ;
+        font-size: 9px ;
     }
     
     table{
+        margin-left: 10px;
         border-collapse: collapse;
         width: 88%;
     }
@@ -98,33 +84,12 @@
         margin-bottom: 45px;
     }
 
-    p#p1{
-        font-size: 60px;
-    }
-    
-    p#p2{
-        font-size: 60px;
-    }
-    
-    p#p3{
-        font-size: 60px;
-    }
-
-    p.ptxt{
-        font-size: 14px;
-    }
-
-    
     div#titulotabela {
         margin-left: 15px;
         margin-top: 5px;
         margin-right: 15px;
         padding: 10px;
         width: 90%;
-        height: auto;
-        background-color: white;
-        border-radius: 5px;
-        flex-grow: 1;
     }
 
 

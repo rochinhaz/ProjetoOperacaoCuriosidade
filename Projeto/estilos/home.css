@@ -49,6 +49,15 @@ div.dados{
     align-content: end;
 }
 
+p.ptxt{
+    align-self: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
 p#p1{
     color: darkblue;
     font-size: 60px;
@@ -72,15 +81,6 @@ p#p3{
     align-self: center;
     align-items: center;
     align-content: center;
-}
-
-p.ptxt{
-    align-self: flex-end;
-    align-items: flex-end;
-    align-content: flex-end;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    font-size: 14px;
 }
 
 div#titulotabela {

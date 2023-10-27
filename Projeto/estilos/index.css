@@ -10,6 +10,75 @@ body{
     background-color: rgb(230, 230, 230);
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    position: absolute; left: 23.5%;
+    background-color: rgb(218, 218, 218);
+    margin: 1.6%;
+    width: 73.5%;
+    height: 10%;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#btpesquisa:hover{
+    cursor: pointer;
+}
+
+.containerhinicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    width: 40%;
+}
+
+header > div.containerhinicio> input {
+    margin-left: 25px;
+    border: solid 1px rgb(230, 230, 230);
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
+    padding: 7px;
+    width: 150%;
+}
+
+header > div.containerhinicio > button {
+    background-color: rgb(218, 218, 218) ;
+    border: none;
+}
+
+.containerhfinal{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+    align-content: center;
+}
+
+header > div.containerhfinal > p {
+    border-right: solid black 1px;
+    padding: 10px;
+    padding-right: 25px;
+}
+
+header > div.containerhfinal > a {
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+}
+
+header > div.containerhfinal > img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
 nav {
     display:block;
     width: 20vw;
@@ -47,76 +116,6 @@ nav > a{
     transition: transform 0.1s;
 }   
 
-
-header {
-    display: flex;
-    flex-direction: row;
-    position: absolute; left: 23.5%;
-    background-color: rgb(218, 218, 218);
-    margin: 1.6%;
-    width: 73.5%;
-    height: 10%;
-    border-radius: 5px;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-}
-
-#btpesquisa:hover{
-    cursor: pointer;
-}
-
-.containerhi{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 10px;
-    align-items: center;
-    align-content: center;
-    width: 40%;
-}
-
-.containerhf{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 30px;
-    align-items: center;
-    align-content: center;
-}
-
-header > div.containerhf > p {
-    border-right: solid black 1px;
-    padding: 10px;
-    padding-right: 25px;
-}
-
-header > div.containerhf > a {
-    text-decoration: none;
-    color: black;
-    margin-right: 25px;
-}
-
-header > div.containerhi> input {
-    margin-left: 25px;
-    border: solid 1px rgb(230, 230, 230);
-    border-radius: 5px;
-    background-color: rgb(230, 230, 230);
-    padding: 7px;
-    width: 150%;
-}
-
-header > div.containerhi > button {
-    background-color: rgb(218, 218, 218) ;
-    border: none;
-}
-
-header > div.containerhf > img {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-}
-
 main {
     position: absolute; left: 22%; top: 15%;
     margin: 20px;
@@ -125,15 +124,10 @@ main {
     height: 75vh;
 }
 
-
-
-
 iframe#tela{
     width: 75vw;
     height: 75vh;
     border: none;
-    overflow: -moz-scrollbars-none;
-    -ms-overflow-style: none;
+    overflow: hidden;
     scrollbar-width: none;
-    
 }

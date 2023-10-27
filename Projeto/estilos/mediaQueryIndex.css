@@ -1,7 +1,49 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width: 200px) and (max-width: 767px){
+@media screen and (min-width: 220px) and (max-width: 767px){
+    
+    header {
+        position: absolute; left: 13.7%;
+        margin: 20px 15px 20px 10px;
+        width: 80%;
+        height: 7%;
+    }
+    
+    .containerhinicio{
+        width: 45%;
+    }
+        
+    header > div.containerhinicio> input {
+        margin-left: 6px;
+        border-radius: 5px;
+        padding: 5px;
+        width: 100%;
+    }
+    
+    header > div.containerhinicio > button {
+        display: none;
+    }
+    
+    .containerhfinal{
+        gap: 8px;
+    }
+    
+    header > div.containerhfinal > p {
+        font-size: 11px;
+        padding: 5px;
+        padding-right: 8px;
+    }
+    
+    header > div.containerhfinal > a {
+        font-size: 11px;
+        margin-right: 8px;
+    }
+    
+    header > div.containerhfinal > img {
+        display: none;
+    }
+    
     nav {
         display:block;
         width:10vw;
@@ -28,47 +70,6 @@
         display: none;
     }
     
-    header {
-        position: absolute; left: 13.7%;
-        margin: 20px 15px 20px 10px;
-        width: 80%;
-        height: 7%;
-    }
-    
-    .containerhi{
-        width: 45%;
-    }
-    
-    .containerhf{
-        gap: 8px;
-    }
-    
-    header > div.containerhf > p {
-        font-size: 11px;
-        padding: 5px;
-        padding-right: 8px;
-    }
-    
-    header > div.containerhf > a {
-        font-size: 11px;
-        margin-right: 8px;
-    }
-    
-    header > div.containerhi> input {
-        margin-left: 6px;
-        border-radius: 5px;
-        padding: 7px;
-        width: 100%;
-    }
-    
-    header > div.containerhi > button {
-        display: none;
-    }
-    
-    header > div.containerhf > img {
-        display: none;
-    }
-    
     main {
         position: absolute; left: 13%; top: 15%;
         margin: 6px;
@@ -83,6 +84,46 @@
 }
 
 @media screen and (min-width: 767px) and (max-width: 992px){
+    
+    header {
+        margin: 20px 15px 20px 10px;
+        width: 74%;
+        height: 7%;
+    }
+    
+    .containerhinicio{
+        gap: 5px;
+        width: 40%;
+    }
+    
+    header > div.containerhinicio> input {
+        margin-left: 15px;
+        padding: 5px;
+        width: 100%;
+    }
+    
+    header > div.containerhinicio > button {
+        display: none;
+    }
+    
+    .containerhfinal{
+        gap: 10px;
+    }
+    
+    header > div.containerhfinal > p {
+        padding: 7px;
+        padding-right: 15px;
+    }
+    
+    header > div.containerhfinal > a {
+        margin-right: 15px;
+    }
+    
+    header > div.containerhfinal > img {
+        width: 30px;
+        height: 30px;
+    }
+
     nav {
         width: 20vw;
         height: 100vh;
@@ -97,45 +138,6 @@
         margin: 10px 5px 15px 10px;
         width: 84%;
         height: 5%;
-    }
-    
-    header {
-        margin: 20px 15px 20px 10px;
-        width: 74%;
-        height: 7%;
-    }
-    
-    .containerhi{
-        gap: 5px;
-        width: 40%;
-    }
-    
-    .containerhf{
-        gap: 10px;
-    }
-    
-    header > div.containerhf > p {
-        padding: 7px;
-        padding-right: 15px;
-    }
-    
-    header > div.containerhf > a {
-        margin-right: 15px;
-    }
-    
-    header > div.containerhi> input {
-        margin-left: 15px;
-        padding: 8px;
-        width: 100%;
-    }
-    
-    header > div.containerhi > button {
-        display: none;
-    }
-    
-    header > div.containerhf > img {
-        width: 35px;
-        height: 35px;
     }
     
     main {
