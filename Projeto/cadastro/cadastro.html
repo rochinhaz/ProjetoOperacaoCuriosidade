@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operação Curiosidade</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilos/listaUsuario.css">
-    <link rel="stylesheet" href="estilos/mediaQueryListaUsuario.css">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="mediaQueryCadastro.css">
 
 </head>
-
 <body>
 
-    <header class="noprint">
-        <h2>Relatórios > Lista de usuários</h2>
-        <input type="button" value="IMPRIMIR" onclick="window.print()">
+    <header>
+        <div class="container">
+            <h2>Cadastros</h2>
+            <h2><a href="../novoCadastro/novoCadastro.html">NOVO CADASTRO</a></h2>
+        </div>
     </header>
-
+    
     <main>
+
         <table id="tbCad" class="tbUser">
             <thead>
                 <tr>
@@ -26,7 +28,6 @@
                     <th>STATUS</th>
                 </tr>
             </thead>
-
             <tbody>
                 <tr>
                     <td>Jeferson Rocha</td>
@@ -50,7 +51,7 @@
                 </tr>
             </tbody>
         </table>
-
+        
     </main>
 
 </body>

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operação Curiosidade</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilos/novocadastro.css">
-    <link rel="stylesheet" href="estilos/mediaQueryNovoCadastro.css">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="novocadastro.css">
+    <link rel="stylesheet" href="mediaQueryNovoCadastro.css">
 
 </head>
 
@@ -25,9 +25,11 @@
             
             <fieldset>
                 <legend>1º Fatos e Dados</legend>
+                <div id="msgErro"></div>
+                <div id="msgValido"></div>
                 <p>
                     <label for="inome" id="labelnome">Nome:</label><br>
-                    <input type="text" name="nome" id="inome" minlength="5" maxlength="40" required>
+                    <input type="text" name="nome" id="inome" maxlength="40" required>
                 </p>
 
                 <p>
@@ -76,7 +78,7 @@
             <input type="button" value="GRAVAR" onclick="gravar()">
     </footer>
     
-    <script src="script/novoCadastro.js"></script>
+    <script src="novoCadastro.js"></script>
 
 </body>
 </html>

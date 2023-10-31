@@ -104,3 +104,27 @@ footer > input:hover {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
     transition: transform 0.1s;
 }
+
+#msgErro{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    background-color: rgba(245, 125, 125, 0.815);
+    padding: 8px;
+    border-radius: 4px;
+    margin: 0px 20px 0px 9px;
+    width: 96%;
+    display: none;
+}
+
+#msgValido{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    background-color: rgba(120, 247, 120, 0.808);
+    padding: 8px;
+    border-radius: 4px;
+    margin: 0px 20px 0px 9px;
+    width: 96%;
+    display: none;
+}

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operação Curiosidade</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilos/login.css">
-    <link rel="stylesheet" href="estilos/mediaQueryLogin.css">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="mediaQueryLogin.css">
 
 </head>
 
@@ -18,13 +18,20 @@
             <form>
                 <div id="divlogin">
                     <div id="logo_login">
-                        <img src="imagens/logo_login.png" alt="logo_login">
+                        <img src="../imagens/logo_login.png" alt="logo_login">
                     </div>
-        
+                    
+                    <div id="msgErroEmail"></div>
+                    <div id="msgValidoEmail"></div>
+                    <div id="msgErroSenha"></div>
+                    <div id="msgValidoSenha"></div>
+
                     <div class="campo">
+
                         <input type="email" name="lemail" id="lemail"  placeholder="Email" required>
                     </div>
                     <div class="campo">
+                        
                         <input type="password" name="lsenha" id="lsenha" placeholder="Senha" required minlength="6" maxlength="20">
                     </div>
                     <div id="entrar">
@@ -36,6 +43,6 @@
         </section>
     </main>
 
-    <script src="script/login.js"></script>
+    <script src="login.js"></script>
 </body>
 </html>

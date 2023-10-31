@@ -4,9 +4,9 @@
 @media screen and (min-width: 220px) and (max-width: 767px){
     
     header {
-        position: absolute; left: 13.7%;
+        position: absolute; left: 11.6%;
         margin: 20px 15px 20px 10px;
-        width: 80%;
+        width: 83.5%;
         height: 7%;
     }
     
@@ -86,8 +86,9 @@
 @media screen and (min-width: 767px) and (max-width: 992px){
     
     header {
+        position: absolute; left: 23.1%;
         margin: 20px 15px 20px 10px;
-        width: 74%;
+        width: 75.2%;
         height: 7%;
     }
     
@@ -149,5 +150,12 @@
     iframe#tela{
         width: 75vw;
         height: 80vh;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    header {
+        position: absolute; left: 22%;
+        width: 75.2%;
     }
 }

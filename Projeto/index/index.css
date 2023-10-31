@@ -13,10 +13,10 @@ body{
 header {
     display: flex;
     flex-direction: row;
-    position: absolute; left: 23.5%;
+    position: absolute; left: 21.8%;
     background-color: rgb(218, 218, 218);
     margin: 1.6%;
-    width: 73.5%;
+    width: 75.2%;
     height: 10%;
     border-radius: 5px;
     justify-content: space-between;
