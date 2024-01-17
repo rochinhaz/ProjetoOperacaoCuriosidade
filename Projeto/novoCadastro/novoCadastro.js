@@ -5,6 +5,8 @@ let validNome = false;
 let msgErro = document.getElementById('msgErro');
 let msgValido = document.getElementById('msgValido');
 
+let atividade = "";
+
 nome.addEventListener('keyup', () =>{
     if(nome.value.length <=2){
         labelNome.setAttribute('style','color: red');
@@ -44,5 +46,40 @@ function gravar(){
         msgValido.setAttribute('style', 'display: none');
         msgValido.innerHTML = '';
     }
+
+    if(iativo.checked){
+        atividade="ativo"
+    }else{
+        atividade="inativo"
+    }
+
+    let arraycadastro = [];
+
+    if (localStorage.getItem('dados') != null) {
+        arraycadastro = JSON.parse(localStorage.getItem('dados'));
+    } else {
+        arraycadastro;
+    }
+
+    let nomeV = document.getElementById("inome").value;
+    let emailV = document.getElementById("iemail").value;
+    
+    var info = {
+        nomeV,
+        emailV,
+        atividade
+    };
+
+    arraycadastro.push(info);
+    var infoJson = JSON.stringify(arraycadastro);
+    localStorage.setItem("dados", infoJson);
+
+    var table = document.getElementById('tbCad');
+    var row = table.insertRow(-1);
+    var nameCell = row.insertCell(0);
+    var emailCell = row.insertCell(1);
+    nameCell.innerHTML = nomeV;
+    emailCell.innerHTML = emailV;
+
 
 }
